@@ -59,7 +59,7 @@ const GithubUsers = () => {
                                     <img src={avatar_url} alt={login} className='--mx --profile-img' />
                                     <span>
                                         <h4>{login}</h4>
-                                        <a href={html_url}>View Profile</a>
+                                        <a target='_blank' rel='noreferrer' href={html_url}>View Profile</a>
                                     </span>
                                 </div>
                             )
